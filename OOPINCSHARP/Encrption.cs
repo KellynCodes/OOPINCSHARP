@@ -2,6 +2,9 @@
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
+using System.Generic;
+using System.linq;
+
 namespace OOPINCSHARP
 {
         public class Encrption

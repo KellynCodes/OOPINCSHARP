@@ -43,12 +43,11 @@ namespace OOPINCSHARP
                 Console.WriteLine("Please enter a string for encryption");
                 var str = Console.ReadLine();
                 var encryptedString = Encrption.EncryptString(key, str);
-                Console.WriteLine($"encrypted string = {encryptedString}");
+                Console.WriteLine($"The encrypted string = {encryptedString}");
 
                 var decryptedString = Encrption.DecryptString(key, encryptedString);
                 Console.WriteLine($"decrypted string = {decryptedString}");
 
-                Console.ReadKey();
         }
     }
 }
