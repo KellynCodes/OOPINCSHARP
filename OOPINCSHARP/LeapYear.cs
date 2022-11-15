@@ -18,8 +18,13 @@ namespace OOPINCSHARP
         }
         public static void CheckLeapYears()
         {
-            Console.WriteLine("The Next 20 Leap Years Are");
-             new LeapYear(2022);
+            while (true)
+            {
+                Console.WriteLine("The Next 20 Leap Years Are");
+                string number = Console.ReadLine();
+
+                new LeapYear(int.Parse(number));
+            }
         }
 
 }

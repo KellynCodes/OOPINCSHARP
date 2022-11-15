@@ -115,7 +115,7 @@ namespace OOPINCSHARPOOPS
             }
             return name;
         }
-        private static string ConvertWholeNumber(String Number)
+        private static string ConvertWholeNumber(string Number)
         {
             string word = "";
             try
